@@ -1,0 +1,779 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, a:hover{
+	text-decoration: none;
+}
+ul{
+	padding-left: 0px;
+}
+body{
+	line-height: 1.4;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Bebas Neue', cursive;
+}
+img{
+	width: 100%;
+}
+input:focus{
+	outline: 0;
+}
+/***************** global css code start *********************/
+
+.btn-primary{
+	font-size: 17px;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 12px 35px;
+	color: #fff;
+	background: #0EBF7F;
+	border-color: #0EBF7F;
+	border-radius: 0;
+	margin-top: 20px;
+}
+.btn-primary:hover{
+	background: transparent;
+	border-color: transparent;
+}
+.gap{
+	padding: 80px 0;
+}
+.myh1{
+	font-size: 80px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.myh2{
+	font-size: 36px;
+	font-weight: 400;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.myp{
+	font-size: 16px;
+	line-height: 32px;
+	color: #686868;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+
+.myrow{
+	margin-left: 283px;
+    margin-top: -247px;
+}
+.mycol{
+	margin-top: 100px;
+}
+
+section>.row{
+	margin: 0;
+}
+.padding-right{
+	padding-right: 150px;
+}
+.padding-left{
+	padding-left: 150px;
+}
+
+/***************** global css code end *********************/
+
+
+/***************** banner css code start *********************/
+
+.banner{
+	width: 100%;
+	background: url(../img/banner.jpg) center center no-repeat;
+	background-size: cover;
+
+}
+.bg-light{
+	background: transparent !important;
+}
+
+.navbar{
+	width: 100%;
+	padding: 25px 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+
+}
+.navbar-bg{
+	background: rgba(0, 0, 0, .8) !important;
+	padding: 15px 0;
+	z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	margin-right: 30px;
+
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #0EBF7F;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active:hover{
+	color: #0EBF7F;
+}
+
+.banner-inner{
+	padding: 150px 0;
+}
+
+/***************** banner css code end *********************/
+
+
+/***************** categories css code start *********************/
+
+.categories{
+	width: 100%;
+	background: #F2F2F2;
+}
+
+.categories-inner{
+	position: relative;
+	width: 100%;
+	transition: .5s;
+}
+.categories-inner:hover{
+	box-shadow: 0px 10px 55px 3px #0000003b;
+}
+.categories-inner h3{
+	position: absolute;
+	left: 30px;
+	bottom: 40px;
+	color: #fff;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+.categories-item{
+	margin-top: 50px;
+	padding: 60px;
+	text-align: center;
+	transition: .5s;
+}
+.categories-item i{
+	font-size: 48px;
+	margin-bottom: 30px;
+	color: #b5b5b5;
+}
+.categories-item h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+	color: #0a0a0a;
+}
+.categories-item p{
+	font-size: 14px;
+	color: #686868;
+}
+.categories-item:hover{
+	background: #0EBF7F;
+}
+.categories-item:hover i{
+	color: #fff;
+}
+.categories-item:hover h3{
+	color: #fff;
+	z-index: 99;
+}
+.categories-item:hover h3{
+	color: rgba(255, 255, 255, 0.66);
+}
+
+/***************** categories css code end *********************/
+
+/***************** specific css code start *********************/
+
+.specific{
+	width: 100%;
+	background: #fff;
+}
+.specific-inner{
+	text-align: center;
+	margin-top: 50px;
+}
+.specific-inner a{
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 400;
+	color: #0ba85a;
+	text-decoration: underline;
+	margin-top: 40px;
+	display: block;
+	font-family: 'Bebas Neue', cursive;
+}
+
+/***************** specific css code end *********************/
+
+/***************** test css code start *********************/
+
+.test{
+	width: 100%;
+	background: url(../img/test-bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.test .myh1{
+	margin-top: 100px;
+	letter-spacing: -5px;
+}
+.test .myp{
+	margin-top: 20px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+
+/***************** test css code end *********************/
+
+/***************** features css code start *********************/
+
+.features{
+	width: 100%;
+	background: #fff;
+	position: relative;
+}
+.features-inner{
+	position: #0B9966;
+}
+.features-inner .myh1{
+	color: #e0e0e0;
+}
+.features-inner .btn-primary{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 400;
+}
+.features-inner .btn-primary:hover{
+	background: #0B9966;
+	border-color: #0B9966;
+}
+.features-item{
+	padding: 0 40px;
+	cursor: pointer;
+}
+.item-1, .item-2{
+	padding-top: 30px;
+	text-align: center;
+}
+.item-1 h5{
+	font-size: 16px;
+	color: #000;
+	letter-spacing: 1px;
+}
+.item-1 p{
+	font-size: 16px;
+	color: #a8a8a8;
+}
+.item-2{
+	margin-top: -70px;
+	opacity: 0;
+	transition: .5s;
+}
+.item-2 .btn-primary{
+	font-size: 14px;
+	margin-top: 0px;
+	padding: 7px 12px;
+}
+.item-2 .btn-primary:hover{
+	background: #333333;
+}
+.item-2 .more{
+	padding: 0 10px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+}
+.features-item:hover .item-2{
+	opacity: 1;
+	transform: translateY(-20px);
+}
+.features-item:hover .item-1{
+	opacity: 0;
+}
+
+
+/***************** features css code end *********************/
+
+
+/***************** amazing css code start *********************/
+
+.amazing{
+	width: 100%;
+	background: #F1F1F1;
+	padding: 150px 0;
+}
+
+.amazing-inner{
+	text-align: center;
+}
+.amazing-inner .after{
+	width: 1.5px;
+	height: 100px;
+	background: #0EBE7E;
+	margin: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+.amazing-inner .item{
+	width: 100%;
+	box-shadow: 0px 0px 61px 9px #949494;
+}
+
+
+
+/***************** amazing css code end *********************/
+
+
+/***************** blog css code start *********************/
+
+
+.blog{
+	width: 100%;
+}
+.blog-inner img{
+	transition: .5s;
+}
+.blog-inner img:hover{
+	opacity: .9;
+}
+.blog-inner h4{
+	text-align: center;
+	font-size: 16px;
+	padding: 20px 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.blog-btn{
+	width: 500px;
+	margin: 20px auto;
+	text-align: center;
+}
+.blog-btn .btn:hover{
+	background: #0EBF7F;
+}
+
+
+/***************** blog css code end *********************/
+
+
+/***************** fun css code start *********************/
+
+.fun{
+	width: 100%;
+	background: url(../img/fun-bg.jpg) center center no-repeat;
+	background-size: cover;
+}
+.fun-inner{
+	padding: 220px 0;
+}
+.fun-inner .myh2{
+	font-size: 64px;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.fun-inner h5{
+	font-size: 24px;
+	color: #ddd;
+	text-align: center;
+}
+
+/***************** fun css code end *********************/
+
+/***************** newsletter css code start *********************/
+
+
+.newsletter{
+	width: 100%;
+}
+.news-inner{
+	width: 100%;
+	background: #0EBF7F;
+	padding: 50px;
+	border-radius: 3px;
+	margin-top: -160px;
+}
+.news-inner .myh2{
+	margin-bottom: 0;
+	line-height: 52px;
+	color: #fff;
+	text-align: left;
+}
+.mail .field{
+	width: 80%;
+	background: #fff;
+	border: 0px solid #fff;
+	border-radius: 0px;
+	color: #000;
+	padding: 15px 20px;
+}
+.mail .submit{
+	width: 18%;
+	background: #fff;
+	border: 0px solid #fff;
+	border-radius: 0px;
+	color: #0EBF7F;
+	padding: 15px 20px;
+}
+
+/***************** newsletter css code end *********************/
+
+/***************** footer css code start *********************/
+
+.footer{
+	width: 100%;
+	background: #202020;
+	
+}
+.footer .gap{
+	border-bottom: 1px solid #393939;
+}
+.footer-inner h3{
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.footer-inner p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #636363;
+}
+.footer-inner a{
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+	color: #636363;
+	display: block;
+}
+.footer-inner a:hover{
+	color: #fff;
+}
+.social-icons ul li{
+	display: inline-block;
+	list-style: none;
+}
+.social-icons a{
+	margin-right: 10px;
+}
+.social-icons i {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #666666;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.copyright p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #636363;
+	margin-top: 80px;
+	text-align: center;
+}
+/***************** footer css code end *********************/
+
+
+/***************** responsive css code start *********************/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+	.navbar-brand img{
+		width: 60%;
+	}
+	.navbar-light .navbar-toggler{
+		background: #fff;
+	}
+	.navbar-nav{
+		background: #0EBF7F;
+		text-align: center;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		margin-right: 0;
+	}
+	.banner-inner{
+		text-align: center;
+	}
+	.myh1{
+		font-size: 40px;
+	}
+	.categories-inner{
+		margin-bottom: 10px;
+	}
+	.categories-inner h3{
+		font-size: 40px;
+	}
+	.categories-item{
+		margin-top: 10px;
+	}
+	.test .myh1{
+		margin-top: 0;
+		letter-spacing: 0;
+	}
+	.features-inner .btn-primary{
+		margin-bottom: 60px;
+	}
+	.myrow{
+		margin-top: 0;
+		margin-left: calc(var(--bs-gutter-x) * -.5);
+	}
+	.mycol{
+		margin-top: 0px;
+	}
+	.features-item{
+		padding: 0;
+		margin-top: 20px;
+	}
+	
+	.amazing{
+		padding: 80px 0;
+	}
+	.amazing-inner .myh2{
+		margin-bottom: 20px;
+	}
+	.padding-right{
+		padding-right: calc(var(--bs-gutter-x) * .5);
+	}
+	.padding-left{
+		padding-left: calc(var(--bs-gutter-x) * .5);
+		margin-top: 20px;
+	}
+	.blog .myh2{
+		margin-bottom: 10px;
+	}
+	.blog .col-md-4{
+		margin-top: 20px;
+	}
+	.fun-inner .myh2{
+		font-size: 43px;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.news-inner{
+		padding: 15px;
+	}
+	.news-inner .myh2{
+		font-size: 30px;
+		line-height: 68px;
+		text-align: center;
+	}
+	.mail .field{
+		width: 70%;
+	}
+	.mail .submit{
+		width: 28%;
+
+	}
+	.footer-inner h3{
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+	.navbar-brand img{
+		width: 60%;
+	}
+	.navbar-light .navbar-toggler{
+		background: #fff;
+	}
+	.navbar-nav{
+		background: #0EBF7F;
+		text-align: center;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		margin-right: 0;
+	}
+	.banner-inner{
+		text-align: center;
+	}
+	.myh1{
+		font-size: 52px;
+	}
+	.categories-inner{
+		margin-bottom: 10px;
+	}
+	.categories-inner h3{
+		font-size: 40px;
+	}
+	.categories-item{
+		margin-top: 10px;
+	}
+	.test .myh1{
+		margin-top: 0;
+		letter-spacing: 0;
+	}
+	.features-inner .myh1{
+		font-size: 68px;
+	}
+	.features-inner .btn-primary{
+		margin-bottom: 60px;
+	}
+	.myrow{
+		margin-top: 0;
+		margin-left: calc(var(--bs-gutter-x) * -.5);
+	}
+	.mycol{
+		margin-top: 0px;
+	}
+	.features-item{
+		padding: 0;
+		margin-top: 20px;
+	}
+	
+	.amazing{
+		padding: 80px 0;
+	}
+	.amazing-inner .myh2{
+		margin-bottom: 20px;
+	}
+	.padding-right{
+		padding-right: calc(var(--bs-gutter-x) * .5);
+	}
+	.padding-left{
+		padding-left: calc(var(--bs-gutter-x) * .5);
+		margin-top: 20px;
+	}
+	.blog .myh2{
+		margin-bottom: 10px;
+	}
+	.blog .col-md-4{
+		margin-top: 20px;
+	}
+	.fun-inner .myh2{
+		font-size: 43px;
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.news-inner{
+		padding: 15px;
+	}
+	.news-inner .myh2{
+		font-size: 30px;
+		line-height: 68px;
+		text-align: center;
+	}
+	.mail .field{
+		width: 70%;
+	}
+	.mail .submit{
+		width: 28%;
+
+	}
+	.footer-inner h3{
+		margin-top: 15px;
+		margin-bottom: 10px;
+	}
+	
+
+
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads   ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+	.navbar-brand img{
+		width: 80%;
+	}
+	.navbar-light .navbar-toggler{
+		background: #fff;
+	}
+	.navbar-nav{
+		background: #0EBF7F;
+		text-align: center;
+	}
+	.navbar-light .navbar-nav .nav-link{
+		margin-right: 0;
+	}
+	.myh1{
+		font-size: 70px;
+	}
+	.categories-inner h3{
+		font-size: 48px;
+	}
+	.categories-item{
+		padding: 40px 10px;
+	}
+	.test .myh1 {
+	    margin-top: 0px;
+	    letter-spacing: 0px;
+	    font-size: 48px;
+	}
+	.myrow {
+	    margin-left: 184px;
+	    margin-top: -225px;
+	}
+	.mycol{
+		margin-top: 70px;
+	}
+	.features-item{
+		padding: 0;
+	}
+	.padding-right{
+		padding-right: 20px;
+	}
+	.padding-left{
+		padding-left: 20px;
+	}
+	.myh2{
+		font-size: 30px;
+	}
+	.mail .field{
+		width: 70%;
+	}
+	.mail .submit{
+		width: 28%;
+
+	}
+	.tab{
+		width: 50%;
+		margin-top: 30px;
+	}
+	.footer-inner p{
+		font-size: 16px;
+	}
+	.footer-inner a{
+		font-size: 16px;
+	}
+
+  
+}
+
+
